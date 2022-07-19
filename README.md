@@ -1,25 +1,11 @@
 # website-about-vikings
  
-Úlohy:
-
-Vytvorte dve navzájom prepojené stránky, na ktorých bude bude zverejnený dvojjazyčný online glosár s nasledovnou funkcionalitou:
-
-1.	Prvá web stránka bude zobrazovať verziu pre administrátora. Táto stránka bude umožňovať 
-
-•	nahrať si csv súbor a údaje z neho uložiť vhodným spôsobom do tabuliek databázy. Vytvorenie databázy iba s jednou tabuľkou nie je povolené.
-
-Dodaný csv súbor má nasledovnú štruktúru:
-EN_pojem;vysvetlenie_EN_pojmu;SK_pojem;vysvetlenie_SK_pojmu
-
-•	pomocou formuláru doplniť do glosáru nový pojem. 
-•	modifikovať pojem, ktorý je už zadefinovaný v databáze.
-•	vymazať pojem z databázy.
-
-2.	Druhá web stránka bude zobrazovať verziu pre užívateľa. Stránka má umožniť obojstranné vyhľadávanie pojmov v glosári. Pri vyhľadávaní nebude záležať na veľkosti zadaných písmen a ani na tom, či reťazec bol zadaný s diakritikou alebo bez nej.
-
-•	Užívateľ si na stránke bude môcť zadať pojem, ktorý bude chcieť vyhľadať v glosári. 
-•	Zároveň si bude môcť vybrať, či tento pojem bude chcieť iba vysvetliť v jazyku, v ktorom ho zadal alebo ho bude chcieť preložiť do druhého jazyka, pričom preklad bude doplnený aj vysvetlením v druhom jazyku.  
-•	V prípade, že namiesto celého pojmu zadá do vstupného poľa len začiatok slova (minimálne 3 znaky), tak sa mu ponúknu všetky pojmy, ktoré začínajú na zadaný reťazec a z nich si bude môcť vybrať, pre aký pojem chce zobraziť výsledok.
-•	Na stránke sa bude dať zvoliť aj fultextové vyhľadávanie pojmov vo vysvetleniach. T.j. po zvolení tejto možnosti sa reťazec zadaný užívateľom nebude vyhľadávať iba medzi pojmami, ale aj vo vysvetleniach v jazyku, v ktorom bol zadaný vyhľadávaný reťazec.
-Nezabudnite na to, že produkt predáva aj grafický vzhľad aplikácie.
- 
+Zadanie cvičenia:
+1.	Vytvorte validné web stránky (HTML 5), na ktorých zobrazíte "klikací obrázok".
+2.	Vytvorte web stránku s fotografiou skupiny ľudí (možné analógie budú vysvetlené na cvičení), kde bude zvýraznených minimálne 5 vybraných oblastí, na ktoré sa bude dať kliknúť myšou.  Zo stránky musí byť jasné, ktoré oblasti sú aktívne. Štruktúra vytvorenej webstránky musí byť v súlade so špecifikáciou HTML5 (treba používať sémantické značky). V prípade, že obrázok preberiete niekde z Internetu, je potrebné uviesť na vašej stránke aj klikateľný odkaz na stránku, odkiaľ ste ho prevzali.
+3.	Po nabehnutí myšou nad aktívnu oblasť zobrazte vedľa zvolenej oblasti relevantné zaujímavé údaje vzťahujúce sa k vašemu výberu. Tieto informácie vhodne graficky zobrazte. Počíta sa s tým, že budú obsahovať minimálne nadpis, obrázok a nejaký doplňujúci text. Na dosiahnutie požadovanej funkcionality používajte výlučne kaskádne štýly.
+4.	Dajte si pozor na to, že stránka môže byť zobrazovaná na rôznych veľkostiach monitorov, t.j. nemala by byť optimalizovaná iba pre vami používané zobrazovacie zariadenie.
+5.	Informácie na stránke musia byť v kódovaní UTF-8.
+6.	Zadanie formátujte len pomocou CSS (žiadne fyzické HTML štýly).
+7.	Validitu vytvoreného dokumentu skontrolujte pomocou validátora (HTML aj CSS).
+8.	Nezabudnite na to, že vzhľad predáva. Výnimočne pekné zadania môžu byť zverejnené ako ukážka pre ostatných spolužiakov a odmenené bonusovým bodom.
